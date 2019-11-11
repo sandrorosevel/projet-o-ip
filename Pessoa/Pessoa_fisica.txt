@@ -1,0 +1,6 @@
+public class Pessoa_fisica extends Pessoa_abstrata {
+	private String cpf;
+	public Pessoa_fisica(String nome,String endereco,String contato, String cpf) {
+		super(nome,endereco,contato);
+		this.cpf=cpf;
+	}
