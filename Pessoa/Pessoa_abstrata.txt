@@ -2,10 +2,12 @@ public abstract class Pessoa_abstrata {
 	private String nome;
 	private String endereco;
 	private String contato;
-	public Pessoa_abstrata(String nome,String endereco,String contato){
+	protected String id;
+	public Pessoa_abstrata(String nome,String endereco,String contato,String id){
 		this.nome=nome;
 		this.endereco=endereco;
 		this.contato=contato;
+		this.id=id;
 	}
 	public String getNome() {
 		return nome;
@@ -25,5 +27,6 @@ public abstract class Pessoa_abstrata {
 	public void setContato(String contato) {
 		this.contato = contato;
 	}
-	
+	public abstract String getId();
+	public abstract void setId();
 }
