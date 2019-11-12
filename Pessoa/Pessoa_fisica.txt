@@ -1,6 +1,11 @@
-public class Pessoa_fisica extends Pessoa_abstrata {
-	private String cpf;
-	public Pessoa_fisica(String nome,String endereco,String contato, String cpf) {
-		super(nome,endereco,contato);
-		this.cpf=cpf;
+public class Pessoa_fisica extends Pessoa_abstrata{
+	public Pessoa_fisica(String nome,String endereco,String contato,String id) {
+		super(nome,endereco,contato,id);
 	}
+	public String getId() {
+		return this.id;
+	}
+	public void setId() {
+		this.id=id;
+	}
+}
