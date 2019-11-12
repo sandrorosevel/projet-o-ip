@@ -1,0 +1,7 @@
+public interface Interface_cliente {
+public void inserir();
+public void remover();
+public void atualizar();
+public Cliente procurar();
+public boolean existe();
+}
