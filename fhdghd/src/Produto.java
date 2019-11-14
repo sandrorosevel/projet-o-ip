@@ -1,4 +1,4 @@
-package projeto;
+package scr;
 
 public class Produto {
 	private String tamanho;
