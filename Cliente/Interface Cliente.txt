@@ -1,7 +1,9 @@
-public interface Interface_cliente {
-public void inserir();
-public void remover();
-public void atualizar();
-public Cliente procurar();
-public boolean existe();
+public interface InterfaceCliente {
+	 
+		public void inserir(Cliente consumidor) throws ClienteJaCadastradoException;
+		public void remover(String Id) throws ClienteNaoEncontradoException;
+		public void atualizar(Cliente consumidor)throws ClienteNaoEncontradoException;
+		public Cliente procurar (String Id)throws ClienteNaoEncontradoException;
+		public boolean existe(String Id);
+	
 }
