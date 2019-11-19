@@ -1,0 +1,10 @@
+/ClienteJaCadastradoException.class
+/ClienteNaoEncontradoException.class
+/FornecedorJaCadastradoException.class
+/FornecedorNaoEncontradoException.class
+/FuncionarioJaCadastradoException.class
+/FuncionarioNaoExistenteException.class
+/ProdutoJaCadastradoException.class
+/ProdutoNaoEncontradoException.class
+/VendaJaCadastradaException.class
+/VendaNaoEncontradaException.class
